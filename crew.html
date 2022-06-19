@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crew | Travel to Space</title>
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main-styles.css">
+    <link rel="stylesheet" href="styles/crew-styles.css">
+</head>
+<body style="background-image: url(assets/background-crew-desktop.jpg);">
+    
+    <!-- Navigation bar -->
+    
+    <div class="navbox">
+        <img src="assets/logo.svg" alt="">
+        <hr>
+        <div class="navbar">
+            <a href="index.html">
+                <span class="num">00</span>
+                <span class="let">HOME</span>
+            </a>
+    
+            <a href="destination.html">
+                <span class="num">01</span>
+                <span class="let">DESTINATION</span>
+            </a>
+    
+            <a href="crew.html" style="border-bottom: #FFFFFF 3.5px solid;">
+                <span class="num">02</span>
+                <span class="let">CREW</span>
+            </a>
+    
+            <a href="technology.html">
+                <span class="num">03</span>
+                <span class="let">TECHNOLOGY</span>
+            </a>
+    
+        </div>
+    </div>
+    
+    <!-- !! -->
+
+<!-- MEET YOUR CREW SUBHEADING -->
+
+<h5>
+    <span class="sub-num">02</span>
+    <span class="sub-let">MEET YOUR CREW</span>
+</h5>
+
+ <!--  -->
+
+<!-- CONTENT -->
+
+<div class="crew-content">
+    <h4 id="crew-title">COMMANDER</h4>
+    <h1 id="crew-name">DOUGLAS HURLEY</h1>
+    <p id="crew-desc">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into
+    space for the third time as commander of Crew Dragon Demo-2.</p>
+</div>
+
+<!-- -- -->
+
+<!-- SLIDER -->
+
+<div class="slider-container">
+    <div class="slider-box" id="slider-box"> 
+        <button class="slider-object btn active" id="douglas" onclick="douglas()"></button>
+        <button class="slider-object btn" id="shuttleworth" onclick="shuttleworth()"></button>
+        <button class="slider-object btn" id="glover" onclick="glover()"></button>
+        <button class="slider-object btn" id="anousheh" onclick="anousheh()"></button>
+    </div>
+</div>
+
+<!-- -- -->
+
+<!-- CREW MEMBER IMAGE -->
+
+<img src="assets/image-douglas-hurley.png" alt="" class="crew-image" id="image">
+
+<script src="scripts/crew-script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+body {
+    margin: 0;
+    background-color: #0B0D17;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Design System */
+
+h1, h2, h3, h4 {
+    color: #FFFFFF;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    font-size: 8.375rem;
+}
+
+h2 {
+    font-size: 6.25rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.296875rem;
+    margin: 0;
+}
+
+
+p {
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 2;
+}
+
+/* -- */
+
+/* Navigation bar */
+
+.navbox{
+    
+    width: 100%;
+    height: 75px;
+    margin-top: 30px;
+}
+
+.navbox img{
+    display: inline-block;
+    margin: 13px 10px 13px 50px;
+}
+
+.navbox hr{
+   display: inline-block; 
+   width: 37%;
+   position: relative;
+   z-index: 1;
+   bottom: 28px;
+   left: 40px;
+   border: none;
+   border-top: 1px solid #484b53;
+}
+
+.navbar {
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(8px);
+    height: inherit;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    text-align: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 1em;
+    letter-spacing: 0.16875em;
+    
+    display: inline-block;
+    margin: 28px 25px;
+    padding-bottom: 24.5px;
+}
+
+.num {
+    font-weight: bold;
+}
+
+.let {
+    font-weight: lighter;
+}
+
+.navbar a:hover {
+    border-bottom: #979797 3.5px solid;
+}
+
+.navbar a:active {
+    border-bottom: #FFFFFF 3.5px solid;
+}

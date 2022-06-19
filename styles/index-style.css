@@ -1,0 +1,38 @@
+.content {
+    width: 30%;
+    position: absolute;
+    top: 240px;
+    left: 170px;
+    margin: 0;
+}
+
+.explore-btn {
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 200px;
+    top: 300px;
+
+    text-decoration: none;
+
+    text-align: center;
+
+    box-shadow: 0px 0px 0px 00px rgba(255, 255, 255, 1);
+    transition: box-shadow 0.6s;
+}
+
+.explore-btn:hover {
+    box-shadow: 0px 0px 0px 50px rgba(255, 255, 255, 0.4);
+}
+
+.explore-btn h4{
+    color: #0B0D17;
+    margin-top: 80px;
+}
+
+
+
+
+

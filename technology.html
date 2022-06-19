@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main-styles.css">
+    <link rel="stylesheet" href="styles/tech-styles.css">
+    <style>
+        body {
+            background-image: url(assets/background-technology-desktop.jpg);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    
+    <div class="navbox">
+        <img src="assets/logo.svg" alt="">
+        <hr>
+        <div class="navbar">
+            <a href="index.html">
+                <span class="num">00</span>
+                <span class="let">HOME</span>
+            </a>
+    
+            <a href="destination.html">
+                <span class="num">01</span>
+                <span class="let">DESTINATION</span>
+            </a>
+    
+            <a href="crew.html">
+                <span class="num">02</span>
+                <span class="let">CREW</span>
+            </a>
+    
+            <a href="technology.html" style="border-bottom: #FFFFFF 3.5px solid;">
+                <span class="num">03</span>
+                <span class="let">TECHNOLOGY</span>
+            </a>
+    
+        </div>
+    </div>
+    
+    <!-- !! -->
+
+<h5>
+    <span class="sub-num">03</span>
+    <span class="sub-let">SPACE LAUNCH 101</span>
+</h5>
+
+<!-- SLIDER BAR -->
+
+<div class="slider-mover" id="slider-mover"></div>
+
+<div class="slider-box" id="slider-box">
+    <button class="slider-circle btn active" id="circle-1" onclick="circle1()">
+        <h4>1</h4>
+    </button>
+
+    <button class="slider-circle btn" id="circle-2" onclick="circle2()">
+        <h4>2</h4>
+    </button>
+
+    <button class="slider-circle btn" id="circle-3" onclick="circle3()">
+        <h4>3</h4>
+    </button>
+</div>
+
+<!-- !! -->
+
+<!-- CONTENT -->
+
+<div id="launch-vehicle">
+
+    <div class="content">
+        <p>THE TERMINILOGY</p>
+        <h3>LAUNCH VEHICLE</h3>
+        <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space,
+        usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall,
+        it's quite an awe-inspiring sight on the launch pad!</p>
+    </div>
+
+        <img src="assets/image-launch-vehicle-portrait.jpg" alt="" class="image">
+
+</div>
+
+<div id="spaceport">
+
+    <div class="content">
+        <p>THE TERMINILOGY</p>
+        <h3>SPACEPORT</h3>
+        <p>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or
+        airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the
+        Earth’s rotation for launch.</p>
+    </div>
+    
+    <img src="assets/image-spaceport-portrait.jpg" alt="" class="image">
+
+</div>
+
+<div id="space-capsule">
+
+    <div class="content">
+        <p>THE TERMINILOGY</p>
+        <h3>SPACE CAPSULE</h3>
+        <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere
+        without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and
+        plenty of other activities to keep you entertained.</p>
+    </div>
+
+    <img src="assets/image-space-capsule-portrait.jpg" alt="" class="image">
+
+</div>
+
+
+<script src="scripts/tech-script.js"></script>
+
+</body>
+</html>

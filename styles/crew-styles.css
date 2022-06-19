@@ -1,0 +1,96 @@
+/* HEADING(MEET UR CREW) */
+.sub-num {
+    color: rgba(115, 115, 115, 1);
+    margin-right: 10px;
+
+}
+
+.sub-let {
+    color: rgba(255, 255, 255, 1);
+}
+
+h5 {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+/* -- */
+
+/* DESCRIPTORY */
+
+.crew-content {
+    width: 30%;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+
+.crew-content h4{
+    font-size: 1.7rem;
+    color: rgba(115, 115, 115, 1);
+    margin: 20px auto;
+    margin-bottom: 0;
+}
+
+.crew-content h1{
+    font-size: 2.9rem;
+    margin: 20px 0;
+    margin-top: 5px;
+    width: max-content;
+}
+
+/* -- */
+
+/* SLIDER */
+
+.slider-container {
+
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    top: 550px;
+    left: 200px;
+/*     text-align: center; */
+}
+
+.slider-box {
+    display: inline-block;
+    margin: auto auto;
+}
+
+.slider-object {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #979797;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: auto 5px;
+    padding: 0;
+    
+}
+
+.slider-object:hover {
+    background-color: #FFFFFF;
+}
+
+.active {
+    background-color: #FFFFFF;
+    height: 13px;
+    width: 13px;
+}
+
+/* -- */
+
+/* CREW MEMBER IMAGE */
+
+.crew-image {
+    height: 530px;
+    position: absolute;
+    right: 200px;
+    bottom: 0;
+}
+
+/* -- */

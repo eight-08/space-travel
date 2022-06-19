@@ -1,0 +1,104 @@
+
+/* HEADING(PICK UR DEST) */
+.sub-num {
+    color: rgba(85, 85, 85, 1);
+    margin-right: 10px;
+
+}
+
+.sub-let{
+    color: rgba(255, 255, 255, 1);
+}
+
+h5 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+/* -- */
+
+/* PLANET IMAGE */
+.planet-img img{
+    width: 350px;
+}
+
+.planet-img {
+    position: absolute;
+    left: 220px;
+    top: 220px;
+}
+
+/* CONTENT */
+
+.dest-content {
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    width: 30%;
+
+}
+
+    /* NAVIGATION */
+
+.content-nav {
+    height: inherit;
+    display: inline-block;
+    text-align: center;
+}
+
+.content-nav button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 1em;
+    letter-spacing: 0.16875em;
+
+    display: inline-block;
+    margin: 28px 15px 10px;
+    padding-bottom: 10px;
+    border-bottom: transparent 3px solid;
+}
+
+.content-nav .btn:hover {
+    border-bottom: #979797 3px solid;
+}
+
+.content-nav .btn:active {
+    border-bottom: #FFFFFF 3px solid;
+}
+
+.content-nav .active {
+    border-bottom: #FFFFFF 3px solid;
+}
+
+.dest-content p {
+    margin: 20px 0 40px;
+}
+
+.dest-content hr{
+    border: none;
+    border-top: 1px solid #484b53;
+}
+
+
+
+    /* STATS */
+
+.dest-stat{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 15px;    
+}
+
+.dest-stat p{
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+.dest-stat h4{
+    margin: 7px 5px 0 0;
+    font-size: 1.65rem;
+}
